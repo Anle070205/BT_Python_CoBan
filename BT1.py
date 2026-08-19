@@ -1,0 +1,7 @@
+print()
+print("anh ten la An")
+print("anh tên là An ")
+print("anh tên là " , "An")
+print("anh tên là ","An",sep=" , ")
+print("anh tên là ","An",sep=" ",end=" : ")
+print(21," tuổi")

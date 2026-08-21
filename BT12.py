@@ -65,8 +65,14 @@ updateFruit = ""
 while updateFruit != "exit":
     updateFruit = input("Nhập các loại trái cây muốn thêm vào mục trái cây (cách nhau bởi dấu phẩy): ")
     if updateFruit != "exit":
-        newFruits = updateFruit.split(",")
+        newFruits = updateFruit.split(" , ")
         mucTraiCay.update(newFruits)
         print("các mục trái cây hiện tại là: ")
         for i in mucTraiCay:
             print(i)
+#thêm phần tử từ list vào set
+fruitList = ["jery", "banana", "jery"]
+mucTraiCay.update(fruitList)
+print("các mục trái cây hiện tại là: ")
+for i in mucTraiCay:
+    print(i)
